@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "static-site",
+      "runtimeExecutable": "powershell.exe",
+      "runtimeArgs": [
+        "-NoProfile",
+        "-ExecutionPolicy", "Bypass",
+        "-File", "C:\\Users\\runev\\AppData\\Local\\Temp\\claude\\C--Users-runev-Desktop-AI--\\c261b9af-b289-4462-b298-2ef240a176fe\\scratchpad\\serve.ps1",
+        "-Root", "C:\\Users\\runev\\Desktop\\AI作業"
+      ],
+      "port": 8090
+    }
+  ]
+}

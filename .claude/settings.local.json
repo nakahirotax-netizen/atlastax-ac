@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python --version)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8090/index.html\" -UseBasicParsing -TimeoutSec 5; \"Status: $\\($r.StatusCode\\) Length: $\\($r.Content.Length\\)\" } catch { \"ERROR: $_\" })",
+      "WebFetch(domain:doors-office.com)",
+      "Bash(find \"C:\\\\Users\\\\runev\\\\Desktop\" \"C:\\\\Users\\\\runev\\\\Downloads\" -maxdepth 2 \\\\\\( -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" -o -iname \"*.svg\" \\\\\\) 2>/dev/null)",
+      "WebSearch",
+      "Bash(python -c ' *)",
+      "Bash(curl -s -o \"C:\\\\Users\\\\runev\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-runev-Desktop-AI--\\\\c261b9af-b289-4462-b298-2ef240a176fe\\\\scratchpad\\\\candidate1.jpg\" \"https://www.pakutaso.com/shared/img/thumb/kagaminIMG_0214_TP_V.jpg\")",
+      "Bash(curl -s -o \"C:\\\\Users\\\\runev\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-runev-Desktop-AI--\\\\c261b9af-b289-4462-b298-2ef240a176fe\\\\scratchpad\\\\candidate2.jpg\" \"https://www.pakutaso.com/shared/img/thumb/danda-danda-danda-_MKT5249-11344-11395-11417_TP_V.jpg\")",
+      "Bash(curl -s -o \"C:\\\\Users\\\\runev\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-runev-Desktop-AI--\\\\c261b9af-b289-4462-b298-2ef240a176fe\\\\scratchpad\\\\candidate3.jpg\" \"https://www.pakutaso.com/shared/img/thumb/kagamiHFKE3986_TP_V.jpg\")",
+      "Bash(curl -s -o \"C:\\\\Users\\\\runev\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-runev-Desktop-AI--\\\\c261b9af-b289-4462-b298-2ef240a176fe\\\\scratchpad\\\\candidate4.jpg\" \"https://www.pakutaso.com/shared/img/thumb/HIRO1003NIS2018929003_TP_V.jpg\")",
+      "Bash(curl -s -o \"C:\\\\Users\\\\runev\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-runev-Desktop-AI--\\\\c261b9af-b289-4462-b298-2ef240a176fe\\\\scratchpad\\\\candidate5.jpg\" \"https://www.pakutaso.com/shared/img/thumb/OZPA_sutusugataiine_TP_V.jpg\")",
+      "PowerShell(& \"C:\\\\Users\\\\runev\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-runev-Desktop-AI--\\\\426c8c9c-4db2-42c7-98fc-67392121e741\\\\scratchpad\\\\gen_kaigyo_articles.ps1\")",
+      "Bash(node -e ' *)",
+      "Bash(export LC_ALL=en_US.UTF-8)",
+      "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' kojin-houjin-zeikin-hikaku.html)",
+      "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' chiryoin-zeimuchousa-kuru.html)",
+      "Bash(cd \"/c/Users/runev/Desktop/AI作業/column\" *)",
+      "Bash(export LC_ALL=C.UTF-8)",
+      "Bash(export LC_ALL=en_US.utf8)",
+      "Bash(grep -v '^[[:space:]]*$')",
+      "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' kaigyoutodoke-kigen.html)",
+      "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' kazoku-kyuyo-keihi.html)",
+      "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' shikin-kariire.html)"
+    ]
+  }
+}
