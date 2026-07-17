@@ -23,7 +23,8 @@
       "Bash(grep -v '^[[:space:]]*$')",
       "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' kaigyoutodoke-kigen.html)",
       "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' kazoku-kyuyo-keihi.html)",
-      "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' shikin-kariire.html)"
+      "Bash(awk '/<article class=\"container article-body\">/,/<\\\\/article>/' shikin-kariire.html)",
+      "WebFetch(domain:www.nta.go.jp)"
     ]
   }
 }
