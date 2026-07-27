@@ -114,6 +114,8 @@ button{font-family:inherit;}
 }
 .btn-white:hover{transform:translateY(-2px);}
 .btn-sm{padding:10px 22px;font-size:.9rem;}
+.btn-line{background:#06C755;color:#fff;}
+.btn-line:hover{background:#05b34c;transform:translateY(-2px);}
 
 /* header */
 .site-header{
@@ -1112,6 +1114,8 @@ button{font-family:inherit;}
   .hide-mobile{display:none;}
   .section{padding:60px 0;}
   .hero h1{font-size:1.65rem;}
+  .hero .hero-actions{flex-wrap:nowrap;gap:8px;}
+  .hero .hero-actions .btn{flex:1;padding:12px 10px;font-size:.82rem;white-space:normal;}
   .grid-3,.grid-4,.grid-5,.grid-2{grid-template-columns:1fr;}
   .campaign-checklist{grid-template-columns:1fr;}
   .flow{grid-template-columns:1fr;}
