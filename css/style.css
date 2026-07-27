@@ -927,6 +927,18 @@ button{font-family:inherit;}
 .check-item .consult-quote{font-size:.92rem;margin-bottom:.9em;}
 .check-item .consult-tags{margin:0 0 .9em;}
 
+/* campaign checklist */
+.campaign-checklist{
+  list-style:none;
+  padding:0;
+  margin:24px 0;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:14px 24px;
+  font-weight:700;
+}
+.campaign-checklist li{line-height:1.5;}
+
 /* compare table */
 .compare-table{
   background:#fff;
@@ -1100,6 +1112,7 @@ button{font-family:inherit;}
   .hide-mobile{display:none;}
   .section{padding:60px 0;}
   .grid-3,.grid-4,.grid-5,.grid-2{grid-template-columns:1fr;}
+  .campaign-checklist{grid-template-columns:1fr;}
   .flow{grid-template-columns:1fr;}
   .content-block{grid-template-columns:48px 1fr;}
   .footer-grid{grid-template-columns:1fr;}
