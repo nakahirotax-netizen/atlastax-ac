@@ -1111,6 +1111,7 @@ button{font-family:inherit;}
 @media(max-width:640px){
   .hide-mobile{display:none;}
   .section{padding:60px 0;}
+  .hero h1{font-size:1.65rem;}
   .grid-3,.grid-4,.grid-5,.grid-2{grid-template-columns:1fr;}
   .campaign-checklist{grid-template-columns:1fr;}
   .flow{grid-template-columns:1fr;}
