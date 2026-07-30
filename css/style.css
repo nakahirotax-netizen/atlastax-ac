@@ -1125,8 +1125,10 @@ button{font-family:inherit;}
   .header-cta .btn{width:100%;}
   .nav-toggle{display:block;}
 }
+.break-mobile{display:none;}
 @media(max-width:640px){
   .hide-mobile{display:none;}
+  .break-mobile{display:inline;}
   .section{padding:60px 0;}
   .hero h1{font-size:1.65rem;}
   .hero .hero-actions{flex-wrap:nowrap;gap:8px;}
