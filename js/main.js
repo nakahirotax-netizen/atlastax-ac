@@ -107,6 +107,22 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.textContent = '📞 ' + phone;
         btn.href = 'tel:' + phone.replace(/-/g, '');
         btn.dataset.revealed = 'true';
+        if (typeof gtag === 'function') {
+          gtag('event', 'phone_reveal', { page_path: location.pathname });
+        }
+      } else if (typeof gtag === 'function') {
+        gtag('event', 'phone_call', { page_path: location.pathname });
+      }
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  var lineButtons = document.querySelectorAll('.btn-line');
+  lineButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      if (typeof gtag === 'function') {
+        gtag('event', 'line_click', { page_path: location.pathname });
       }
     });
   });
