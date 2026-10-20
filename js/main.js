@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
           gtag('event', 'phone_reveal', { page_path: location.pathname });
         }
       } else if (typeof gtag === 'function') {
-        gtag('event', 'phone_call', { page_path: location.pathname });
+        gtag('event', 'phone_click', { page_path: location.pathname });
       }
     });
   });
